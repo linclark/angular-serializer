@@ -32,8 +32,7 @@
                         buildParams(prefix + '[' + name + ']', obj[name], add);
                       }
                     }
-                  }
-                  else {
+                  } else {
                     add(prefix, obj);
                   }
                 };
